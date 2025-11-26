@@ -1,17 +1,24 @@
-<style>
-body{margin:0;font-family:Arial;background:#f5fdf7;color:#1a3d1a}
-header{background:#0f8a3c;color:#fff;padding:15px 0}
-.nav{display:flex;justify-content:space-between;align-items:center}
-.nav a{margin:0 10px;color:#fff;text-decoration:none}
-.btn{background:#fff;color:#0f8a3c;padding:6px 12px;border-radius:4px}
-.container{max-width:900px;margin:auto;padding:20px}
-.hero{display:flex;gap:20px;align-items:center;padding-top:30px}
-.hero img{width:50%;border-radius:12px}
-.services .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.services .grid div{background:white;padding:15px;border-radius:6px}
-footer{text-align:center;padding:20px;background:#0f8a3c;color:white;margin-top:40px}
-form{display:grid;gap:10px}
-input,textarea{padding:10px;border-radius:4px;border:1px solid #ccc}
-button{background:#0f8a3c;color:#fff;padding:10px;border:none;border-radius:4px}
-@media(max-width:700px){.hero{flex-direction:column}.services .grid{grid-template-columns:repeat(1,1fr)}}
-</style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f5fdf7;
+    color: #1a3d1a;
+}
+
+header, footer {
+    background: #0f8a3c;
+    color: #fff;
+}
+
+.hero img {
+    border-radius: 12px;
+}
+
+.btn-custom {
+    border-radius: 4px;
+}
+
+.card-img-fixed {
+    height: 250px;      /* adjust as needed */
+    width: 100%;
+    object-fit: cover;
+}
